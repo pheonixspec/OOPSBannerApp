@@ -1,17 +1,18 @@
 public class OOPSbannerstringarray {
 
     public static void main(String args[]){
-
-        lines[0] = System.out.println(String.join(" " , " *****  " , " *****  " , " ****** " , "  **** "));
-        lines[1] = System.out.println(String.join(" " , "*     * " , "*     * " , "*     * " , " *     "));
-        lines[2] = System.out.println(String.join(" " , "*     * " , "*     * " , "*     * " , " *     "));
-        lines[3] = System.out.println(String.join(" " , "*     * " , "*     * " , "******* " , " ***** "));
-        lines[4] = System.out.println(String.join(" " , "*     * " , "*     * " , "*       " , "     * "));
-		lines[5] = System.out.println(String.join(" " , "*     * " , "*     * " , "*       " , "     * "));
-		lines[6] = System.out.println(String.join(" " , " *****  " , " *****  " , "*       " , " ****  "));
+      String[] bannerLines = new String[7];
+	  
+        bannerLines[0] = String.join(" " , " *****  " , " *****  " , " ****** " , "  **** ");
+        bannerLines[1] = String.join(" " , "*     * " , "*     * " , "*     * " , " *     ");
+        bannerLines[2] = String.join(" " , "*     * " , "*     * " , "*     * " , " *     ");
+        bannerLines[3] = String.join(" " , "*     * " , "*     * " , "******* " , " ***** ");
+        bannerLines[4] = String.join(" " , "*     * " , "*     * " , "*       " , "     * ");
+		bannerLines[5] = String.join(" " , "*     * " , "*     * " , "*       " , "     * ");
+		bannerLines[6] = String.join(" " , " *****  " , " *****  " , "*       " , " ****  ");
 	
-	for (String line : lines) {
+	for (String line : bannerLines) {
 		System.out.println(line);
 	}
-	}
+  }
 }
