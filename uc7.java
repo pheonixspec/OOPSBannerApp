@@ -1,6 +1,6 @@
 
 public class uc7 {
-
+// its been so long
     public static class CharacterPatternMap {
         private char character;
         private String[] pattern;
